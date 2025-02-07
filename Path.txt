@@ -1,0 +1,131 @@
+Month 1: Core Fundamentals & Front-End Foundation
+• HTML, CSS, Tailwind CSS:
+• HTML Structure: Elements, tags, attributes, semantic HTML - Revise
+• CSS Fundamentals: 
+	• Selectors,  Pseudo selectors, Child selectors, Parent selectors, OR, AND
+	• Properties, values, 
+	• Box model, Margin, Padding, Border, content, outline
+	• flexbox, grid - Revise
+• Tailwind CSS: Utility-first approach, setting up Tailwind, configuring styles, responsive design Learn
+• Practice: Build various layouts using HTML, CSS, and Tailwind Revise
+• JavaScript (ES6+): YouTube
+• Variables, data types, operators, control flow (if/else, loops) Revise
+• Functions (regular, arrow), scope, closures Learn
+• Objects, prototypes, inheritance Learn
+• Arrays: Methods (map, filter, reduce), iteration Revise
+• Asynchronous JavaScript: Callbacks, Promises, Async/Await Revise
+• ES6+ features: let/const, template literals, destructuring, spread/rest operators, modules Learn
+• Practice: Solve coding challenges on platforms like Codewars or HackerRank Practise
+• React Basics: Udemy Course
+• Components: Functional vs. class components Revise
+• JSX: Embedding JavaScript in HTML Revise
+• Props: Passing data to components Revise
+• State: Managing component data Revise
+• Event handling Revise
+• Lifecycle methods (if using class components) Revise
+• Practice: Build simple UI components (buttons, forms, lists) Practise
+• Project: 
+	• Basic React App:
+• Choose a simple project (to-do list, calculator, weather app) Practise
+• Plan the component structure Revise
+• Implement the UI using React components and JSX Revise
+• Manage state and handle user interactions Revise
+
+Month 2: Back-End Introduction & Database
+• Node.js & Express.js : Udemy
+• Node.js runtime environment, npm (Node Package Manager) Revise
+• Express.js framework: Setting up a server, routing, middleware Revise
+• Request and response objects Revise
+• Building APIs: Handling GET, POST, PUT, DELETE requests Revise
+• Middleware: Body-parser, CORS Revise
+• Practice: Build a simple API to handle data Practise
+• MongoDB:
+• NoSQL databases: Introduction to MongoDB Revise
+• Setting up MongoDB Revise
+• CRUD operations: Create, Read, Update, Delete Revise
+• Data modeling: Designing schemas Revise
+• Connecting to MongoDB from Node.js Revise
+• Practice: Implement CRUD operations in your Node.js API Practise
+• Project: Simple CRUD App:
+• Connect your React front-end to your Node.js/MongoDB back-end Revise
+• Implement full CRUD functionality Revise
+• Focus on clean code and a well-structured API Revise
+• Data Structures & Algorithms (Basics):
+• Arrays, Linked Lists, Stacks, Queues. Revise
+• Basic sorting algorithms (e.g., bubble sort, insertion sort) Revise
+• Searching algorithms (e.g., linear search, binary search) Revise
+• Big O notation (basic understanding) Revise
+• Practice: Implement these data structures and algorithms in your preferred language Practise
+
+Month 3: Advanced Back-End & Authentication
+• Node.js & Express.js (Advanced):
+• User authentication: Sessions, cookies, JWT (JSON Web Tokens - introduce briefly) Revise
+• Authorization: Role-based access control Revise
+• Security best practices: Preventing common vulnerabilities (e.g., cross-site scripting, SQL injection) Revise
+• Error handling: Centralized error management Revise
+• Testing: Unit testing your API Revise
+• MongoDB (Advanced):
+• Indexing: Improving query performance Revise
+• Aggregation: Performing complex data transformations Revise
+• Relationships: Modelling relationships between collections Revise
+• Project: Full-Stack App with Authentication:
+• Implement user registration and login 
+• Protect API endpoints using authentication middleware.
+• Implement user roles and permissions (if necessary).
+• OOPS Concepts:
+• Principles: Encapsulation, Inheritance, Polymorphism, Abstraction.
+• Classes and objects.
+• Practice: Apply OOP principles in your code.
+
+Month 4: Front-End Enhancements & Domain Review 1
+• React (Advanced):
+• React Router: Implementing navigation.
+• State Management: Redux or Context API.
+• API calls: Using Axios or Fetch API.
+• Higher-order components (HOCs).
+• Custom hooks (if using functional components).
+• Styling:
+• Advanced Tailwind CSS techniques (components, variants).
+• Responsive design best practices.
+• CSS-in-JS solutions (if time permits).
+• Domain Review 1 & Tutorial-Based Application:
+• Review the concepts covered in the first three months.
+• Start working on the tutorial-based application.
+• Focus on database schema design, API documentation (using tools like Swagger or Postman), and basic architecture.
+
+Month 5: Deep Dive into Domain 1 and Cloud Basics
+• Tutorial-Based Application (Continued):
+• Implement the front-end modules of your application.
+• Adhere to coding standards and best practices.
+• Implement version control using Git.
+• Cloud Hosting (AWS/Google Cloud Basics):
+• Choosing a cloud provider (AWS, Google Cloud, or others).
+• Setting up a virtual machine or serverless functions.
+• Deploying your application.
+• Configuring Nginx (or similar) as a reverse proxy.
+• Setting up SSL certificates for HTTPS.
+• OOAD & Design Patterns (Basics):
+• Object-oriented analysis and design principles.
+• UML diagrams (class diagrams, sequence diagrams).
+• Design patterns: Singleton, Factory, Observer (start with these).
+
+Month 6: Project 2, Database Deep Dive, and Testing
+• Project 2 (Start):
+• Choose a more complex project that incorporates the technologies you've learned.
+• Plan the architecture, database schema, and API design.
+• Start working on the front-end and back-end.
+• SQL/PostgreSQL (Advanced):
+• SQL syntax: Advanced queries, joins, subqueries.
+• Database normalization.
+• Transactions.
+• Indexes: Creating and managing indexes.
+• PostgreSQL-specific features (if applicable).
+• Software Testing (Introduction):
+• Unit testing: Testing individual components or functions.
+• Integration testing: Testing the interaction between components.
+• Functional testing: Testing the application as a whole.
+• End-to-end testing (brief overview).
+• Testing frameworks (e.g., Jest, Mocha, Cypress).
+
+• Domain Review 2 (Partial):
+• Review the concepts covered in the previous months, with a focus on database design, scalability, and security.

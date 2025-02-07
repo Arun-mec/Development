@@ -1,0 +1,34 @@
+/* focus */
+/* .class-controls input[type="text"]:focus{
+    outline: 1px solid blue;
+    color: red;
+} */
+
+/* disabled  */
+/* .class-controls input[type="text"]:disabled {
+    background: red;
+} */
+
+/* checked */
+/* if checked, then the label color will get changed */
+/* .class-controls input[type="checkbox"]:checked + .checkbox-label {
+    color : blue;
+} */
+
+/* button hover */
+/* .class-controls input[type="button"]:hover {
+    background: red;
+    color: white;
+} */
+
+/* Adding an element before an element  */
+/* Psuedo element */
+/* .class-div::before {
+    content: "This is the element";
+    color: red;
+}
+
+.class-div::after {
+    content : "This is after";
+    color: black;
+} */

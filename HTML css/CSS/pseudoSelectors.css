@@ -1,0 +1,51 @@
+/* first-child */
+/* .class-div div:first-child {
+    background: red;
+} */
+
+/* this wont work as first child is not type of p */
+/* .class-div p:first-child {
+    background: yellow;
+} */
+
+/* this wont work as last child is not type of div */
+/* .class-div div:last-child {
+    background: red;
+} */
+
+/* last child */
+/* .class-div p:last-child {
+    background: red;
+} */
+
+/* first of type  */
+/* .class-div p:first-of-type {
+    background: red;
+} */
+
+/* last of type  */
+/* .class-div div:last-of-type {
+    background-color: yellow;
+} */
+
+/* nth child */
+/* .class-div div:nth-child(3) {
+    background: blue;
+} */
+
+/* will not be applied as 3rd child is not p */
+/* .class-div p:nth-child(3) {
+    background: blue;
+} */
+
+/* nth of type  */
+/* applied to the 3rd of type p */
+/* .class-div p:nth-of-type(3) {
+    background: blue;
+} */
+
+/* not  */
+/* .class-div :not(div) {
+    background: lightblue;
+} */
+

@@ -1,0 +1,58 @@
+/* Standard way for box sizing  */
+*, *::before, *::after {
+    box-sizing:inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Box Sizing  */
+/* .outer-div {
+    width:200px;
+    height:200px;
+    padding:10px;
+    background: pink;
+} */
+/* 
+.inner-div {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: greenyellow;
+} */
+
+/* 
+.outer-div {
+    background-color: aliceblue;
+    border: 1px solid grey;
+    padding: 15px;
+    margin: auto;
+    width:min(700px, 100%);
+} */
+
+
+/* outside display properties */
+/* .outer-div {
+    display: none;
+    display: block;
+} */
+
+/* Inside display properties  */
+/* .outer-div {
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+}
+.outer-div span{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 200px;
+    margin: 100px;
+    display:inline-block;
+    /* display: flow-root; */
+
+

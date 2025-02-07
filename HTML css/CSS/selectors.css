@@ -1,0 +1,110 @@
+/* Class selector */
+/* .class-div {
+    margin: 10px;
+    padding: 10px;
+    background: red;
+    color: white;
+}
+
+.class-child1 {
+    padding:10px;
+    background-color: yellow;
+    color: black;
+} */
+
+
+/* Identifier selector */
+/* #class-id1 {
+    margin: 10px;
+    padding: 100px;
+    background: pink;
+    color: black;
+} */
+
+/* OR Condition */
+/* Case 1 */
+/* .class-div1 {
+    margin: 10px;
+    padding: 100px;
+    background: blue;
+    color: black;
+}
+
+.class-div2 {
+    margin: 10px;
+    padding: 100px;
+    background: blue;
+    color: black;
+} */
+
+/* Case 2 */
+/* .class-div1, .class-div2 {
+    margin: 10px;
+    padding: 100px;
+    background: blue;
+    color: black;
+} */
+
+/* AND Condition */ 
+/* Applied to all the elements class name and id */
+/* .class-div1#class-id1 {
+    margin: 10px;
+    padding: 100px;
+    background: blue;
+    color: black;
+} */
+
+/* Child elements */
+/* Case 1  */ 
+/* Applied to all div  */
+/* .class-div1 {
+    background: pink;
+    color: black;
+}
+.class-div1 div {
+    margin: 10px;
+    background: blue;
+    color: white;
+} */
+
+/* Case 2 */ 
+/* Applied to immediate div  */
+/* .class-div1 > div {
+    outline: 10px solid black;
+} */
+
+/* Siblings */
+/* Case 1 */
+/* Applied to immediate sibling */
+/* .class-inner-child1 + div {
+    margin: 10px;
+    background: blue;
+    color: white;
+} */
+
+/* Case 2 */
+/* Applied to all siblings */
+/* .class-inner-child1 ~ div {
+    margin: 10px;
+    background: blue;
+    color: white;
+} */
+
+/* New Attribute */
+/* [data-value] {
+    margin: 10px;
+    background: blue;
+    color: white;
+}
+
+[data-value=data-value1] {
+    margin: 10px;
+    background: blue;
+    color: white;
+} */
+
+/* * Selector */
+/* Applied to all elements */
+* {
+    border : 1px solid black;
+}

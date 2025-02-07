@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Export to Excel</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script> 
+</head> 
+<body> 
+    <button id="export">Export to Excel</button> 
+    <script> 
+        document.getElementById("export").addEventListener("click", function() { 
+            // Sample data 
+            const data = [ 
+                ["Name", "Age", "City"], 
+                ["Alice"], 
+                ["Bob", 25, "San Francisco"], 
+                ["Charlie", 35, "Los Angeles"] 
+            ]; 
+ 
+            // Create a worksheet 
+            const ws = XLSX.utils.aoa_to_sheet(data); 
+            // Create a new workbook 
+            const wb = XLSX.utils.book_new(); 
+            // Append the worksheet to the workbook 
+            XLSX.utils.book_append_sheet(wb, ws, "Sheet1"); 
+            // XLSX.utils.book_append_sheet(wb, ws, "Sheet2"); 
+            // Generate a binary string 
+            const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'binary' }); 
+            // const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'binary' }); 
+ 
+            // Function to convert string to array buffer 
+            function s2ab(s) { 
+                const buf = new ArrayBuffer(s.length); 
+                const view = new Uint8Array(buf); 
+                for (let i = 0; i < s.length; i++) { 
+                    view[i] = s.charCodeAt(i) & 0xFF; 
+                } 
+                return buf; 
+            } 
+ 
+            // Save the file 
+            const blob = new Blob([s2ab(wbout)], { type: "application/octet-stream" });  //Create a new file
+            // const link = document.createElement("a"); 
+            
+            link.href = URL.createObjectURL(blob); 
+            link.download = "data.xlsx"; 
+            link.click(); 
+        }); 
+    </script> 
+</body> 
+</html> 

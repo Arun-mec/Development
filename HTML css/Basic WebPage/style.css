@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.card-one {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    text-align: justify;
+}

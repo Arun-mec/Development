@@ -1,0 +1,41 @@
+/* .outer {
+    background-color: lightblue;
+
+}
+
+.inner {
+    background-color: lightgray;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.navbar {
+    background-color: red;
+    position: sticky ;
+    bottom:0;
+}
+
+.item {
+    background-color: lightgreen;
+}
+
+.code {
+    background-color: lightsalmon;
+    position: relative;
+    left:100px;
+}
+
+.label {
+    background-color: lightseagreen;
+    z-index: 2;
+}
+
+.label2 {
+    background-color: lightpink;
+    position :absolute;
+    top: 0;
+    left: 0;
+}  */
